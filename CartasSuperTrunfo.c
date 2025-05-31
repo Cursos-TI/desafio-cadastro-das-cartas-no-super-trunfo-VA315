@@ -2,13 +2,13 @@
 
 int main(){
     
-    char estado[20];
-    char codigo[2];
-    char cidade[20];
-    int populacao;
-    float area;
-    float pib;
-    int pontos_turisticos;
+    char estado[20] =  "Rio de Janeiro";
+    char codigo [20]  =  "A01, B02";
+     char cidade[20]  =  "Itaborai";
+    int populacao = 260.930;
+    float area = 459.458;
+    float pib = 57.69;
+    int pontos_turisticos = 10;
 
     printf("cadastro da carta: c01\n");
     
@@ -31,7 +31,7 @@ int main(){
     scanf("%d", &pontos_turisticos);
 
 
- printf("carta: c01\n");
+ printf("carta: \n");
  printf("codigo: %s\n", codigo);
 printf("estado: %s\n", estado);
 printf("cidade: %s\n", cidade);
