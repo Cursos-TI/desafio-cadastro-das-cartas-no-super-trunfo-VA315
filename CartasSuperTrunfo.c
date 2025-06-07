@@ -2,40 +2,47 @@
 
 int main(){
     
-    char estado[20];
-     char código[20];
-     char cidade;
-     int população;
-     float area;
-     float pib;
-     int pontos_turísticos;
+char código[4];
+char estado[20];
+char cidade[20];
+int população;
+float área;
+float pib;
+int pontos_turísticos;
 
-     printf("cadastro da carta: 1 \n");
-     printf("codigo do estado: A");
-     printf("codigo: A01");
+printf("Cadastro da carta: 1\n");
+printf("Estado: A");
 
+printf("Código da cidade: A01");
+scanf("%s", &código);
 
-    printf("cidade: Itaborai");
-    scanf("%s", cidade);
+Printf("Cidade: Itaboraí");
+scanf("%s", &cidade);
 
-    printf("populacao: 260.930");
-    scanf("%d", &população);
+printf("População: 260.930");
+scanf("%d", &população);
 
-    printf("area (km²) 459.458");
-    scanf("%2f", &area);
+printf("Área (Km²): 459.458");
+scanf("%f", &área);
 
-    printf("PIB( em bilhoes): 057,690");
-    scanf("%f" , &pib);
+printf("PIB (em bilhões): 057,69");
+scanf("%f", &pib);
 
-    printf("numero de pontos turisticos: 10");
-    scanf("%d", &pontos_turísticos);
-
-
-
+printf("Número de pontos turísticos: 10");
+scanf("%d", &pontos_turísticos);
 
 
+printf("\n--- Cadastro da carta ---\n");
+printf("Código: %s\n", código);
+printf("população: %d\n", população);
+printf("Área: %.2f km²\n", área);
+printf("PIB: %.2f bilhões\n", pib);
+printf("Pontos turísticos: 10 %d\n", pontos_turísticos);
 
 
+
+
+    
 
 
     return 0;
